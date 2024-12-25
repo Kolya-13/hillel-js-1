@@ -13,3 +13,4 @@ if (averageGrade < 60) {
 } else if (averageGrade <= 100) {
     console.log("Відмінно");
 }
+
