@@ -4,7 +4,7 @@ let users = [
     { name: "Igor", email: "igor@example.com", age: 35 }
 ];
 
-// Перебір масиву за допомогою циклу for...of з деструктуризацією
+
 for (let { name, email, age } of users) {
     console.log(`Name: ${name}, Email: ${email}, Age: ${age}`);
 }
