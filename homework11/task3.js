@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-// Функція для отримання todo
+// Ф-ція для отримання todo
 async function fetchTodo() {
     try {
         const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
@@ -14,7 +14,7 @@ async function fetchTodo() {
     }
 }
 
-// Функція для отримання user
+// Ф-ція для отримання user
 async function fetchUser() {
     try {
         const response = await fetch("https://jsonplaceholder.typicode.com/users/1");

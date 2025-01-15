@@ -19,7 +19,7 @@ function fetchTodo() {
     });
 }
 
-// Функція для отримання user
+// Ф-ція для отримання user
 function fetchUser() {
     return new Promise((resolve, reject) => {
         fetch("https://jsonplaceholder.typicode.com/users/1")

@@ -4,6 +4,6 @@ function delayedLog(text, milliseconds) {
     }, milliseconds);
 }
 
-// Виклик функції
+
 delayedLog("Hello, this text will appear in 2 seconds", 2000);
 delayedLog("And this one in 1 second", 1000);
