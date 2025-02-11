@@ -1,6 +1,6 @@
 const axios = require('axios');
 const MockAdapter = require('axios-mock-adapter');
-const makeRequest = require('./task2'); // Шлях до вашої функції
+const makeRequest = require('./task2'); 
 
 describe('makeRequest function', () => {
     let mock;
@@ -19,7 +19,7 @@ describe('makeRequest function', () => {
         const params = { key: 'value' };
 
         mock.onGet(url).reply(config => {
-            // Перевіряємо, чи заголовки та параметри правильно включені в запит
+          
             expect(config.headers).toEqual(expect.objectContaining(headers));
             expect(config.params).toEqual(params);
             return [200, {}];
